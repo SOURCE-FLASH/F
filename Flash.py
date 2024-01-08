@@ -78,7 +78,7 @@ async def _(event):
     await event.edit("جارٍ...")
     end = datetime.datetime.now()
     ms = (end - start).microseconds / 1000
-    await event.edit(f'''ᴄʜᴇᴄᴋᴇʀ ɪs ʀᴜɴɪɴɢ ♕\n𝙿ᴏɴɢ ↬ `{ms}`\nᴅᴀᴛᴇ ↬ `{m9zpi}`\nᴄʜᴀᴛ ɪᴅ ↬ `{event.sender_id}`\nᴅᴇᴠ ᴄʜᴇᴄᴋᴇʀ ↬ [- Ramy  ](tg://openmessage?user_id=5627420357)''')
+    await event.edit(f'''ᴄʜᴇᴄᴋᴇʀ ɪs ʀᴜɴɪɴɢ ♕\n𝙿ᴏɴɢ ↬ `{ms}`\nᴅᴀᴛᴇ ↬ `{m9zpi}`\nᴄʜᴀᴛ ɪᴅ ↬ `{event.sender_id}`\nᴅᴇᴠ ᴄʜᴇᴄᴋᴇʀ ↬ [ᴇʟᴘᴏᴘ  ](tg://openmessage?user_id=5627420357)''')
 
 
 @Flash.on(events.NewMessage(outgoing=True, pattern=r"\.م1"))
@@ -97,7 +97,7 @@ ownerhson_id = 5627420357
 async def OwnerStart(event):
     sender = await event.get_sender()
     if sender.id == ownerhson_id :
-        order = await event.reply('Hi My Developer [ Ramy ](tg://openmessage?user_id=5627420357)')
+        order = await event.reply('Hi My Developer [ ᴇʟᴘᴏᴘ ](tg://openmessage?user_id=5627420357)')
 
 @Flash.on(events.NewMessage(outgoing=True, pattern=r"\.اعادة تشغيل"))
 async def update(event):
@@ -149,5 +149,5 @@ async def spammer(event):
     await event.delete()
     await spam_function(event, reply, cat, sleeptimem, sleeptimet, DelaySpam=True)
 
-print("- RAMY <\>  Userbot Running ..")
+print("ᴇʟᴘᴏᴘ <\>  Userbot Running ..")
 Flash.run_until_disconnected()
